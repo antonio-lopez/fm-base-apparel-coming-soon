@@ -29,7 +29,7 @@
       </div>
       <!-- hero -->
       <div>
-        <img src="/images/hero-mobile.jpg" alt="hero mobile" />
+        <img class="w-full" src="/images/hero-mobile.jpg" alt="hero mobile" />
       </div>
       <!-- text -->
       <div class="flex flex-col items-center justify-center">
@@ -48,7 +48,19 @@
           launch deals.
         </p>
         <!-- email input -->
-        <p>Email Address</p>
+        <!-- pill -->
+        <div
+          class="rounded-full p-4 px-20 outline outline-2 outline-desaturatedRed/40"
+        >
+          <div class="p-3">
+            <input
+              type="email"
+              class="text-left placeholder-desaturatedRed/60"
+              required
+              placeholder="Email Address"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </body>
