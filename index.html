@@ -21,18 +21,28 @@
 
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
-  <!-- <body
-    class="h-screen bg-[url('/images/bg-pattern-desktop.svg')] bg-contain bg-right"
-  > -->
-  <body class="h-screen bg-gradient-to-tr from-bgWhite to-bgPink">
-    <div class="grid-col-1 m-auto grid md:grid-cols-2">
+  <body
+    class="h-screen bg-gradient-to-tr from-bgWhite to-bgPink md:bg-[url('/images/bg-pattern-desktop.svg')]"
+  >
+    <div
+      class="grid-col-1 m-auto grid lg:h-screen lg:grid-cols-2 lg:grid-rows-4"
+    >
       <!-- logo -->
       <div class="p-8">
         <img class="h-6" src="/images/logo.svg" alt="logo" />
       </div>
       <!-- hero -->
-      <div>
-        <img class="w-full" src="/images/hero-mobile.jpg" alt="hero mobile" />
+      <div class="lg:col-start-2 lg:row-start-1 lg:row-end-4">
+        <img
+          class="w-full lg:hidden"
+          src="/images/hero-mobile.jpg"
+          alt="hero mobile"
+        />
+        <img
+          class="hidden w-full lg:block"
+          src="/images/hero-desktop.jpg"
+          alt="hero desktop"
+        />
       </div>
       <!-- text -->
       <div class="flex flex-col items-center justify-center">
