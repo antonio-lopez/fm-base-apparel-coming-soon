@@ -21,7 +21,10 @@
 
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
-  <body class="h-screen bg-[url('/images/bg-pattern-desktop.svg')]">
+  <!-- <body
+    class="h-screen bg-[url('/images/bg-pattern-desktop.svg')] bg-contain bg-right"
+  > -->
+  <body class="h-screen bg-gradient-to-tr from-bgWhite to-bgPink">
     <div class="grid-col-1 m-auto grid md:grid-cols-2">
       <!-- logo -->
       <div class="p-8">
@@ -42,23 +45,26 @@
             >
           </h1>
         </div>
-        <p class="px-8 py-5 text-center text-sm text-desaturatedRed">
+        <p class="px-8 py-5 text-center text-sm text-desaturatedRed/80">
           Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our
           launch deals.
         </p>
         <!-- email input -->
-        <!-- pill -->
         <div
-          class="rounded-full p-4 px-20 outline outline-2 outline-desaturatedRed/40"
+          class="relative grid grid-cols-3 grid-rows-1 rounded-full px-4 py-3 outline outline-2 outline-desaturatedRed/40"
         >
-          <div class="p-3">
-            <input
-              type="email"
-              class="text-left placeholder-desaturatedRed/60"
-              required
-              placeholder="Email Address"
-            />
+          <input
+            type="email"
+            class="col-span-2 bg-transparent placeholder-desaturatedRed/40 outline-none"
+            required
+            placeholder="Email Address"
+          />
+          <!-- submit button -->
+          <div
+            class="absolute -top-[2px] -right-[3px] rounded-full bg-gradient-to-tr from-softPink to-darkPink py-4 px-8 outline-1 outline-desaturatedRed"
+          >
+            <img src="/images/icon-arrow.svg" alt="icon arrow" />
           </div>
         </div>
       </div>
