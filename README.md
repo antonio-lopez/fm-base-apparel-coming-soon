@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-using-tailwind-css-ByB2ZC_B5)
+- [Live Site](https://antonio-base-apparel-coming-soon.netlify.app/)
 
 ## My process
 
