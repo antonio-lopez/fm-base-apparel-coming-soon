@@ -6,4 +6,8 @@
   html {
     font-family: 'Josefin Sans';
   }
+
+  .error {
+    background-image: url(./images/icon-error.svg);
+  }
 }
